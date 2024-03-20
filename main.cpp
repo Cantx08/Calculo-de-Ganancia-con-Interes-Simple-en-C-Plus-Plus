@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    cout << "07 Programa que calcula el interes y valor futuro de una inversion con interes simple" << endl;
+    cout << "07 Programa que calcula el valor del interes y la ganancia de una inversion con interes simple" << endl;
     double capital, tasa, tiempo, interes, valorFuturo;
 
     // Ingresar el capital a invertir, la tasa de interés y el tiempo.
