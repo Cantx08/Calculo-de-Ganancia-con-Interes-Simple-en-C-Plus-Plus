@@ -20,6 +20,7 @@ int main()
     interes = capital * (tasa / 100) * tiempo;
     // Calcular el valor a futuro de la inversión (Fórmula del Interés Simple)
     valorFuturo = capital * (1 + ((tasa / 100) * tiempo));
+    cout << endl;
     // Mostrar el resultado en consola.
     cout << "El valor del interes es: " << interes << " USD." << endl;
     cout << "El valor a futuro obtenido es: " << valorFuturo << " USD.";
